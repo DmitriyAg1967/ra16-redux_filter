@@ -1,5 +1,7 @@
 import { nanoid } from "nanoid";
-import { ADD_SERVICE, REMOVE_SEVICE, EDIT_SERVICE, FILTER_LIST } from '../actions/actionTypes'
+import { ADD_SERVICE, REMOVE_SEVICE, EDIT_SERVICE } from '../actions/actionTypes'
+
+
 
 const initialState = [
   { id: 'qFSk45-WEv', name: 'Диагностика', price: 1 },
